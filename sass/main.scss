@@ -177,14 +177,15 @@ body {
         border-radius: 2rem;
         box-shadow: 0 5px 10px 2px #e6e6e6;
         background-color: #fff;
+        position: relative;
     }
 
     &__nouveau {
         &::after {
             content: "Nouveau";
-            position: relative;
-            top: -75vw;
-            right: -65vw;
+            position: absolute;
+            top: 5vw;
+            right: 5vw;
             background: #99E2D0;
             color: #278870;
             font-size: 0.9rem;
