@@ -2,3 +2,16 @@ $variable: value 1;
 .rule-1 {
   border: $variable;
 }
+$color-primary: #9356dc;
+$color-secondary: #FF79DA;
+$color-tertiary: #6dc7b1;
+$color-quaternary:#e9e7e7;
+$primary_font_family: 'Roboto',
+sans-serif;
+$secodanry_font_family:'Shrikhand',
+cursive;
+$size: 1rem;
+$breakpoints: (
+  tablet: 760px,
+  desktop: 1180px
+);
