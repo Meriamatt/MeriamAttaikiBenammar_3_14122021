@@ -75,9 +75,8 @@
         width: 100%;
         animation: appear 1s ease-in-out forwards;
         opacity: 0;
-        
         &:hover .menu__animation-width {
-            width: calc(100% - 4.5rem);
+            width: calc(100% - 3.5rem);
         }
 
         &__check-icon i {
@@ -87,9 +86,6 @@
         &:hover .menu__check-icon i {
             transform: rotate(360deg);
             transition: transform .5s;
-        }
-        &:hover .menu__check-icon {
-           opacity: 1;
         }
     }
     &__strong {
@@ -132,7 +128,6 @@
         position: absolute;
         top: 0;
         bottom: 0;
-        right: 0rem;
         width: 3.5rem;
         display: inline-flex;
         justify-content: center;
@@ -140,7 +135,6 @@
         color: #fff;
         font-size: 1.2rem;
         background-color: $color-tertiary;
-        opacity: 0;
         i {
             transition: none;
         }

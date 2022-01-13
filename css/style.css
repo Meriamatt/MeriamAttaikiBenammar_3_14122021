@@ -11,6 +11,10 @@ body {
   }
 }
 
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
 .menu {
   background-color: #f8f8f8;
   position: relative;
@@ -88,7 +92,7 @@ body {
   opacity: 0;
 }
 .menu__list:hover .menu__animation-width {
-  width: calc(100% - 4.5rem);
+  width: calc(100% - 3.5rem);
 }
 .menu__list__check-icon i {
   transition: none;
@@ -96,9 +100,6 @@ body {
 .menu__list:hover .menu__check-icon i {
   transform: rotate(360deg);
   transition: transform 0.5s;
-}
-.menu__list:hover .menu__check-icon {
-  opacity: 1;
 }
 .menu__strong {
   white-space: nowrap;
@@ -135,7 +136,6 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0rem;
   width: 3.5rem;
   display: inline-flex;
   justify-content: center;
@@ -143,7 +143,6 @@ body {
   color: #fff;
   font-size: 1.2rem;
   background-color: #6dc7b1;
-  opacity: 0;
 }
 .menu__check-icon i {
   transition: none;
