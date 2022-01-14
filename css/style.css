@@ -143,6 +143,7 @@ body {
   color: #fff;
   font-size: 1.2rem;
   background-color: #6dc7b1;
+  cursor: pointer;
 }
 .menu__check-icon i {
   transition: none;
